@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.View_Main_Startup">
+
+    <RelativeLayout
+        android:id="@+id/layOut1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#720FD5"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-83dp">
+
+        <TextView
+            android:id="@+id/proximity"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/layOut1"
+            android:layout_marginLeft="20dp"
+            android:hint="proximity" />
+
+        <TextView
+            android:id="@+id/barometer"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/proximity"
+            android:layout_marginLeft="20dp"
+            android:hint="barometer" />
+
+        <TextView
+            android:id="@+id/lumen"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/barometer"
+            android:layout_marginLeft="20dp"
+            android:hint="lumen" />
+        <TextView
+            android:id="@+id/orientation2"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/lumen"
+            android:layout_marginLeft="20dp"
+            android:hint="orientation" />
+        <TextView
+            android:id="@+id/tilt"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/orientation2"
+            android:layout_marginLeft="20dp"
+            android:hint="rotation" />
+
+        <TextView
+            android:id="@+id/accelerator"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/tilt"
+            android:layout_marginLeft="20dp"
+            android:hint="accelerator" />
+
+        <TextView
+            android:id="@+id/gravity"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/accelerator"
+            android:layout_marginLeft="20dp"
+            android:hint="gravity" />
+
+        <TextView
+            android:id="@+id/gyroscope"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/gravity"
+            android:layout_marginLeft="20dp"
+            android:hint="gyroscope" />
+
+        <TextView
+            android:id="@+id/magnetism"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/gyroscope"
+            android:layout_marginLeft="20dp"
+            android:hint="magnetism" />
+
+        <TextView
+            android:id="@+id/orientation"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/magnetism"
+            android:layout_marginLeft="20dp"
+            android:hint="orientation" />
+
+        <TextView
+            android:id="@+id/rotation"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/orientation"
+            android:layout_marginLeft="20dp"
+            android:hint="rotation" />
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
